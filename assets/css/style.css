@@ -1,0 +1,287 @@
+:root {
+    --btn: #000;
+    --bord: #333;
+    --body: #222;
+    --brand: #3867d6;
+    --white: #fff;
+    --p: #c4c4c4;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: justify;
+}
+
+/* navbar start */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: var(--bord);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 6%;
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+.header .logo span {
+    color: var(--brand);
+}
+
+.header .navbar a {
+    font-size: 1.1rem;
+    color: var(--white);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover {
+    color: var(--brand);
+}
+
+.header .navbar button {
+    font-size: 16px;
+    color: var(--white);
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.header .navbar button:hover {
+    color: var(--brand)
+}
+/* navbar end */
+
+/* home start */
+.home .tagline {
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('https://img.freepik.com/free-photo/beautiful-bride-with-bouquet-stands-park_8353-7855.jpg?t=st=1711940802~exp=1711944402~hmac=6e333acc2a15caaba881b1ef253093f6e2d9216ace4caf7475ce38bfd8520d46&w=740');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+.home .tagline h3 {
+    color: var(--white);
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home .tagline h3 span {
+    color: var(--brand);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* home end */
+
+/* button start */
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 3;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: deepskyblue;
+    border-color: lightskyblue;
+}
+
+.text {
+    color: var(--btn);
+}
+/* button end */
+
+/* heading start */
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--white);
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.services .heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--btn);
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.heading span {
+    color: var(--brand);
+    text-transform: uppercase;
+}
+/* heading end */
+
+/* about start */
+#about {
+    min-height: 100vh;
+    background-color: var(--body);
+    background-size: cover;
+}
+
+.about .row .image img {
+    width: 100%;
+    border-radius: .5rem;
+    border: .8rem solid var(--bord);
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.about .row .content p {
+    font-size: 1rem;
+    color: var(--p);
+    padding: 1rem 0;
+    line-height: 2;
+}
+/* about end */
+
+/* services start */
+#services {
+    min-height: 100vh;
+    background: var(--p);
+}
+
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+}
+
+.services .box-container .box {
+    border-radius: .5rem;
+    background: var(--bord);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.services .box-container .box i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: var(--brand);
+    color: var(--white)
+}
+
+.services .box-container .box h3 {
+    font-size: 1.2rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.services .box-container .box p {
+    font-size: 1rem;
+    color: var(--p);
+    line-height: 1.8;
+}
+
+.services .box:hover {
+    background-color: var(--btn);
+}
+/* services end */
+
+/* cta start */
+#cta {
+    min-height: 80vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('https://img.freepik.com/free-photo/view-funny-stand-up-comedian_23-2151098395.jpg?t=st=1714355587~exp=1714359187~hmac=1c5609c8e2ddd41eb0a5c1230e6dddb32b0c1398171a13d126c34b746dbd93d8&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.cta .tagline h3 {
+    color: var(--white);
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cta .tagline h3 span {
+    color: var(--brand);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* cta end */
+
+/* testimonial start */
+#review {
+    background-color: var(--body);
+}
+
+.testimonial {
+    background-color: var(--bord);
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#review a {
+    color: var(--brand);
+}
+/* testimonial end */
+
+/* footer start*/
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: var(--bord);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 6%;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 3;
+}
+
+.btn-light {
+    background-color: var(--brand);
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: deepskyblue;
+    border-color: lightskyblue;
+}
+/* footer end */

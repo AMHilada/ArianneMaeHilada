@@ -256,7 +256,10 @@ section {
 /* testimonial end */
 
 
-/* FQA start */
+/* FAQ start */
+#faq {
+    background-color: var(--body);
+}
 .faq-section {
     max-width: 800px;
     margin: auto;
@@ -317,13 +320,13 @@ section {
   .accordion-button[aria-expanded="true"]::after {
     content: ""; /* Minus icon */
   }
-/* FQA end */
+/* FAQ end */
 
 /* footer start */
 #footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: var(--white);
+    background-color: var(--body);
 }
 
 #footer ul.list-unstyled li a {

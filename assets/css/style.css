@@ -255,33 +255,96 @@ section {
 }
 /* testimonial end */
 
-/* footer start*/
-.footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
-    background: var(--bord);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 6%;
+
+/* FQA start */
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .faq-item {
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    border-radius: 0 !important;
+  }
+
+  .faq-question {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  .faq-answer {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: var(--bg1);
+  }
+
+  /* Hover effect for FAQ questions */
+  .faq-question:hover {
+    background-color: var(--brand); /* Change background color on hover */
+    color: var(--bg1); /* Change text color on hover */
+  }
+
+  /* Adjust accordion icon */
+  .accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+  }
+
+  .accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+  }
+/* FQA end */
+
+/* footer start */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bg1);
 }
 
-.btn {
-    padding: 15px 30px;
-    transition: all 0.4s ease;
-    font-weight: 800;
-    border-radius: 3;
+#footer ul.list-unstyled li a {
+    color: #ffffff;
 }
 
-.btn-light {
-    background-color: var(--brand);
+#footer ul.list-unstyled li:hover a {
+    color: var(--brand) ;
 }
 
-.btn-light:hover {
-    background-color: transparent;
-    color: deepskyblue;
-    border-color: lightskyblue;
+#reviews h2, #services h2 {
+    color: var(--bg1);
+}
+
+.btn-outline-light {
+    border-color: #F2B03B !important;
+    color: #F2B03B;
+}
+
+#footer h5 {
+    color: var(--brand);
+    margin-bottom: 15px;
 }
 /* footer end */

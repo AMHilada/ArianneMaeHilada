@@ -34,7 +34,7 @@ section {
 .header .logo {
     font-weight: bolder;
     color: var(--white);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .header .logo span {
@@ -224,11 +224,12 @@ section {
     background-attachment: fixed;
     text-align: center;
     padding-top: 8rem;
+    padding-bottom: 2rem;
 }
 
 .cta .tagline h3 {
     color: var(--white);
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

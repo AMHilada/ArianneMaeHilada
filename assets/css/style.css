@@ -129,6 +129,14 @@ section {
     text-transform: uppercase;
 }
 
+.faq .heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--btn);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
 .heading span {
     color: var(--brand);
     text-transform: uppercase;
@@ -264,7 +272,7 @@ section {
 
 /* FAQ start */
 #faq {
-    background-color: var(--body);
+    background-color: var(--p);
 }
 .faq-section {
     max-width: 800px;

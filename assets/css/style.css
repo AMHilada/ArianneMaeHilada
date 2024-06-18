@@ -34,7 +34,7 @@ section {
 .header .logo {
     font-weight: bolder;
     color: var(--white);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .header .logo span {
@@ -74,11 +74,12 @@ section {
     background-attachment: fixed;
     text-align: center;
     padding-top: 15rem;
+    padding-bottom: 2rem;
 }
 
 .home .tagline h3 {
     color: var(--white);
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -149,11 +150,13 @@ section {
 
 .about .row .content {
     flex: 1 1 40rem;
+    text-align: center;
 }
 
 .about .row .content h3 {
     font-size: 1.6rem;
     color: var(--white);
+    text-align: center;
 }
 
 .about .row .content p {
@@ -161,6 +164,7 @@ section {
     color: var(--p);
     padding: 1rem 0;
     line-height: 2;
+    text-align: center;
 }
 /* about end */
 

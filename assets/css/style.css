@@ -272,7 +272,7 @@ section {
 
 /* FAQ start */
 #faq {
-    background-color: var(--p);
+    background-color: var(--body);
 }
 .faq-section {
     max-width: 800px;
@@ -292,7 +292,7 @@ section {
     padding: 15px;
     font-size: 18px;
     font-weight: 500;
-    color: var(--btn);
+    color: var(--white);
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
   }
@@ -319,7 +319,7 @@ section {
   /* Hover effect for FAQ questions */
   .faq-question:hover {
     background-color: var(--brand); /* Change background color on hover */
-    color: var(--body); /* Change text color on hover */
+    color: var(white); /* Change text color on hover */
   }
 
   /* Adjust accordion icon */

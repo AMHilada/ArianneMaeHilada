@@ -129,7 +129,7 @@ section {
     text-transform: uppercase;
 }
 
-.faq .heading{
+.faq .faq-section .heading{
     text-align: center;
     padding-bottom: 2rem;
     color: var(--btn);
@@ -285,14 +285,14 @@ section {
   }
 
   .faq-question {
-    background-color: var(--white);
+    background-color: var(--btn);
     border: none;
-    border-bottom: 1px solid var(--p);
+    border-bottom: 1px solid var(--white);
     border-radius: 0;
     padding: 15px;
     font-size: 18px;
     font-weight: 500;
-    color: var(--bord);
+    color: var(--btn);
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
   }
@@ -301,7 +301,7 @@ section {
     border-left: 3px solid var(--brand);
     padding: 10px 15px;
     margin-left: 0;
-    background-color: var(--white);
+    background-color: var(--btn);
   }
 
   .faq-answer p {
@@ -313,13 +313,13 @@ section {
   }
 
   .accordion-button:not(.collapsed) {
-    color: var(--p);
+    color: var(--white);
   }
 
   /* Hover effect for FAQ questions */
   .faq-question:hover {
     background-color: var(--brand); /* Change background color on hover */
-    color: var(--white); /* Change text color on hover */
+    color: var(--body); /* Change text color on hover */
   }
 
   /* Adjust accordion icon */

@@ -338,7 +338,7 @@ section {
 }
 
 .btn-outline-light {
-    border-color: var(--btn) !important;
+    border-color: var(--bord) !important;
     color: var(--brand);
 }
 

@@ -34,7 +34,7 @@ section {
 .header .logo {
     font-weight: bolder;
     color: var(--white);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .header .logo span {
@@ -42,7 +42,7 @@ section {
 }
 
 .header .navbar a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--white);
     margin-left: 2rem;
 }
@@ -52,7 +52,7 @@ section {
 }
 
 .header .navbar button {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--white);
     font-family: sans-serif;
     outline: none;
